@@ -1,0 +1,57 @@
+
+html
+{
+	height: 100%;
+}
+/*Login Style*/
+
+body#login
+{
+	height: 100%;
+	background-image: linear-gradient(45deg, rgb(112, 0, 242) , rgb(255, 0, 0));
+	background-repeat: no-repeat;
+}
+
+body#login > div > div.jumbotron
+{
+	position: relative;
+	top: 100px;
+}
+
+
+/*index style*/
+
+body#index
+{
+	/*background-image: linear-gradient(90deg, rgb(112, 0, 242) , rgb(255, 0, 0));
+	background-repeat: repeat;*/
+	background-color: #41423d;
+}
+nav.navbar.navbar-inverse
+{
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #41423d;
+}
+
+div#sidebar
+{
+	background-color: #41423d;
+	padding: 0;
+}
+div#sidebar ul li a
+{
+	border-radius: 0;
+	color: #fff;
+}
+
+div#sidebar ul li a:hover
+{
+	background-color: #363636;
+	border-radius: 0;
+	color: #fff;
+}
+div#content > div
+{
+	background-color: #fff;
+}
